@@ -1,6 +1,6 @@
-import readFileAsArray from "../../util/readFileAsArray"
+import readFileAsArray from "../util/readFileAsArray"
 
-const input = readFileAsArray("../input.txt")
+const input = readFileAsArray("./input.txt")
 
 enum ReadingType {
   INCREASING,

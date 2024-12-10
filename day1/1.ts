@@ -1,7 +1,7 @@
 import fs from 'fs'
 
 function getListsFromFile() {
-  const data = fs.readFileSync('../input.txt',
+  const data = fs.readFileSync('./input.txt',
     { encoding: 'utf8', flag: 'r' });
 
   const leftList = []

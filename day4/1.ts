@@ -1,7 +1,7 @@
-import readFileAsArray from "../../util/readFileAsArray"
-import getEnumNumberKeys from "../../util/getEnumNumberKeys"
+import readFileAsArray from "../util/readFileAsArray"
+import getEnumNumberKeys from "../util/getEnumNumberKeys"
 
-const input = readFileAsArray("../input.txt")
+const input = readFileAsArray("./input.txt")
 
 const grid = input.map((line) => line.toLowerCase().split(""))
 

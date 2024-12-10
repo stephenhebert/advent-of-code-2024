@@ -1,6 +1,12 @@
 {
+  "scripts": {
+    "test": "node --import tsx --test 'util/**/__tests__/*.spec.ts'"
+  },
   "dependencies": {
     "@types/node": "^22.10.1",
     "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
   }
 }

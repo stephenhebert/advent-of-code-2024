@@ -1,7 +1,7 @@
-import readFileAsArray from "../../util/readFileAsArray"
+import readFileAsArray from "../util/readFileAsArray"
 
 // const input = readFileAsArray("./example2.txt")
-const input = readFileAsArray("../input.txt")
+const input = readFileAsArray("./input.txt")
 
 const grid = input.map((line) => line.toLowerCase().split(""))
 

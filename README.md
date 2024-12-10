@@ -10,4 +10,4 @@ https://adventofcode.com/2024
 
 2. Execute
 
-    `> tsx cd day1/1 && tsx main.ts`
+    `> tsx cd day1 && tsx 1.ts`

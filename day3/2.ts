@@ -1,6 +1,6 @@
-import readFileAsString from "../../util/readFileAsString"
+import readFileAsString from "../util/readFileAsString"
 
-const input = readFileAsString("../input.txt")
+const input = readFileAsString("./input.txt")
 
 const mulInstructionRegexString = 'mul\\((\\d{1,3}),(\\d{1,3})\\)'
 const doInstructionRegexString = 'do\\(\\)'

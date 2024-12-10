@@ -1,0 +1,24 @@
+// # =======================================
+// # start time:
+// # end time:
+// # 
+// # issues:
+// # 
+// # 
+// # 
+// # reflections:
+// # 
+// # 
+// # =======================================
+
+const startTime = Date.now()
+
+
+async function main() {
+
+
+  console.log('Execution time: ', (Date.now() - startTime), 'ms')  
+}
+
+main()
+
