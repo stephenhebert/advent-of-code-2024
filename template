@@ -10,14 +10,20 @@
 // # 
 // # 
 // # =======================================
+import { performance } from 'node:perf_hooks'
 
-const startTime = Date.now()
+// TODO: process.argv
 
+const startTime = performance.now()
+
+if (process.argv.length !== 3 ) 
+  throw new Error('Please specify the input file')
+const inputFileName = process.argv[2]
 
 async function main() {
 
 
-  console.log('Execution time: ', (Date.now() - startTime), 'ms')  
+  console.log('Execution time: ', (performance.now() - startTime), 'ms')  
 }
 
 main()

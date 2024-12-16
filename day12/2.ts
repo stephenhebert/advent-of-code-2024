@@ -22,7 +22,10 @@
 // #    * zoom to deal with diagonal lines -- too complex
 // # 
 // # reflections:
-// # 
+// #  * reddit - 
+// #    * flood fill algorithm
+// #    * corners = sides
+// #    * vertical sides = horizontal sides
 // # 
 // # =======================================
 
